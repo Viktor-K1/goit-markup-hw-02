@@ -3,24 +3,27 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
     <title>Document</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css" integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./css/style.css">
   </head>
 
   <body>
     <header>
       <nav>
-        <a href="./index.html" class="logo">WebStudio</a>
+        <a href="./index.html" class="logo"><span class="web-logo">Web</span><span class="studio-logo">Studio</span></a>
         <ul>
-          <li><a href="">Studio</a></li>
-          <li><a href="">Portfolio</a></li>
-          <li><a href="">Contacts</a></li>
+          <li><a class="navigation" href="">Studio</a></li>
+          <li><a class="navigation" href="">Portfolio</a></li>
+          <li><a class="navigation" href="">Contacts</a></li>
         </ul>
       </nav>
       <address>
         <ul>
-          <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+          <li><a class="mailto" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
           <li><a href="tel:+110001111111">+11 (000) 111-11-11</a></li>
         </ul>
       </address>
@@ -28,9 +31,9 @@
 
     <main>
       <!--section_1-->
-      <section>
-        <h1>Effective Solutions for Your Business</h1>
-        <button type="button">Order Service</button>
+      <section class="solutions-unit">
+        <h1 class="solutions-header">Effective Solutions for Your Business</h1>
+        <button class="solutions-button" type="button">Order Service</button>
       </section>
 
       <!--section_2-->
@@ -113,32 +116,32 @@
         <h2>Our Portfolio</h2>
         <ul>
         <li>
-          <img src="./images/banking.jpg" alt="Banking App">
+          <img src="./images/banking.jpg" alt="Banking App" width="360" >
           <h3>Banking App</h3>
           <p>App</p>
         </li>
         <li>
-          <img src="./images/cashless.jpg" alt="Cashless Payment">
+          <img src="./images/cashless.jpg" alt="Cashless Payment" width="360">
           <h3>Cashless Payment</h3>
           <p>Marketing</p>
         </li>
         <li>
-          <img src="./images/maditation.jpg" alt="Meditaion App">
+          <img src="./images/maditation.jpg" alt="Meditaion App" width="360">
           <h3>Meditaion App</h3>
           <p>App</p>
         </li>
         <li>
-          <img src="./images/taxi.jpg" alt="Taxi Service">
+          <img src="./images/taxi.jpg" alt="Taxi Service" width="360">
           <h3>Taxi Service</h3>
           <p>Marketing</p>
         </li>
         <li>
-          <img src="./images/screen.jpg" alt="Screen Illustration">
+          <img src="./images/screen.jpg" alt="Screen Illustration" width="360">
           <h3>Screen Illustration</h3>
           <p>Design</p>
         </li>
         <li>
-          <img src="./images/courses.jpg" alt="Online Courses">
+          <img src="./images/courses.jpg" alt="Online Courses" width="360">
           <h3>Online Courses</h3>
           <p>Marketing</p>
         </li>
