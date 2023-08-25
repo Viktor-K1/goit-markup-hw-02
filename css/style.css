@@ -42,7 +42,8 @@ ul {
   color: #2e2f42;
 }
 
-.navigation:active {
+.navigation:focus,
+.navigation:hover {
   color: #404bbf;
 }
 
@@ -54,7 +55,8 @@ address li a {
   letter-spacing: 0.32px;
 }
 
-.mailto:active {
+.mailto:focus,
+.mailto:hover {
   color: #404bbf;
 }
 
